@@ -1,0 +1,96 @@
+ \documentclass [14pt]{extreport}
+ %\usepackage[cp1251]{inputenc}
+ \usepackage[ukrainian]{babel}
+ \usepackage{latexsym}
+ \usepackage{graphicx}
+ \usepackage{float}
+ \usepackage{epsfig}
+ \usepackage{lipsum}
+ \usepackage{euscript}
+ \usepackage{amsmath, amssymb}
+ \usepackage[hidelinks]{hyperref}
+ \textwidth16.7cm
+ \textheight22.7cm
+% \textwidth15.5cm
+% \textheight22cm
+ \topmargin0cm
+ \evensidemargin0cm
+ %\lefthyphenmin=2
+% \righthyphenmins=3
+ \leftmargin=1.1cm
+% \rightmargin=1.5cm
+% \renewcommand{\baselinestretch}{1.8}
+% \renewcommand{\arraystretch}{0.6}
+ \renewcommand{\theequation}{\thechapter.\arabic{equation}}
+% \renewcommand{\bibname}{Список використаних джерел}
+ \newcommand\real{{\rm I\! R}}
+ \newcommand\cmplx{\;\hbox{\vrule height6.8pt width0.8pt depth-0.1pt
+           \kern-3.6pt {\rm C}}}
+ \newcommand\nat{{\rm I\! N}}
+ \newcommand\integer{{\rm Z \!\! Z}}
+ \newcommand\abs{\par\noindent}
+ \newcommand\smalf{\par\smallskip\noindent}
+ \newcommand\medlf{\par\medskip\noindent}
+ \newcommand\biglf{\par\bigskip\noindent}
+% \renewcommand{\thetheorem}{\thesection}
+ \renewcommand{\thesection}{\thechapter.\arabic{section}.}
+% \newcommand\thesec1{\thechapter .\arabic{section}}
+ \renewcommand{\thesubsection}{\thesection\arabic{subsection}.}
+ \newtheorem{theorem}{Теорема}[section]
+% \renewcommand{\chapter}{\centerline{{Розділ}[chapter]}
+ \renewcommand{\thetheorem}{\thesection\arabic{theorem}}
+ \newtheorem{definition}[theorem]{Означення}
+ \newtheorem{lemma}[theorem]{Лема}
+ \newtheorem{remark}[theorem]{Зауваження}
+ \newcommand\proof{{\noindent \it Доведення.\ }}
+ \newcommand\beweis{\ \hfill$\Box$}
+ \newcommand\beweisende{\ \hfill$\Box$\break}
+ \newtheorem{kor}[theorem]{Corollary}
+%\newtheorem{lem}[theorem]{Lemma}
+%\newtheorem{remark}[theorem]{Remark}
+\newcommand\re{\mathop{\rm Re}\nolimits}
+\newcommand\im{\mathop{\rm Im}\nolimits}
+\newcommand\Dex{\real^2\setminus\Gamma}
+\newcommand\Dexab{\real^3\setminus D}
+\newcommand\Grad{\mathop{\rm Grad}\nolimits}
+\newcommand\Div{\mathop{\rm Div}\nolimits}
+\newcommand\grad{\mathop{\rm grad}\nolimits}
+\newcommand\sinc{\mathop{\rm sinc}\nolimits}
+\newcommand\divv{\mathop{\rm div}\nolimits}
+\newcommand\curl{\mathop{\rm curl}\nolimits}
+\newcommand\ar{\!\!\!\!}
+\newcommand\vkappa{{\gamma}}
+ \def\bql#1{\begin{equation}\label{#1}}
+ \def\bq{\begin{equation}}
+ \def\eq{\end{equation}}
+ \def\eref#1{{\rm (\ref{#1})}}
+ \def\btr{\begin{theorem}\hspace{-1.8mm}{\bf.}\hspace{3mm}}
+ \def\ble{\begin{lemma}\hspace{-1.8mm}{\bf.}\hspace{3mm}}
+ \def\bdf{\begin{definition}\hspace{-1.8mm}{\bf.}\hspace{3mm}}
+\DeclareRobustCommand{\bbone}{\text{\usefont{U}{bbold}{m}{n}1}}
+\DeclareMathOperator{\EX}{\mathbb{E}}
+% **************************************************************************
+ \includeonly{titel,vstup,rozdil_1,rozdil_2,rozdil_3,vysnovok,bibl}
+
+% ***************************************************************************
+ \begin{document}
+ \pagestyle{myheadings}
+% \flushbottom
+% **************************************************************************
+ \include{titel}
+% **************************************************************************
+ \include{vstup}
+% ***************************************************************************
+ \include{rozdil_1}
+% ***************************************************************************
+ \include{rozdil_2}
+% ***************************************************************************
+ \include{rozdil_3}
+% ***************************************************************************
+ \include{vysnovok}
+% ***************************************************************************
+ \include{bibl}
+% ***************************************************************************
+
+% ***************************************************************************
+\end{document}
