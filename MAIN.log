@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  24 MAY 2024 11:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.28)  24 MAY 2025 20:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/Kursova/Latex/Kursach/MAIN.tex
-(d:/Kursova/Latex/Kursach/MAIN.tex
+**"d:/4 LNU/Diplomna/MAIN.tex"
+(d:/4 LNU/Diplomna/MAIN.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\danii\AppData\Local\Programs\MiKTeX\tex/latex/extsizes\extreport.cls
@@ -553,7 +553,12 @@ Package hyperref Info: Link coloring OFF on input line 76.
 
 \openout2 = `titel.aux'.
 
- (titel.tex [1
+ (titel.tex
+Overfull \hbox (2.93349pt too wide) in paragraph at lines 32--37
+| \T2A/cmr/m/n/14.4 кан-ди-дат фiзико-математичних на-ук, 
+ []
+
+[1
 
 
 {C:/Users/danii/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (MAIN.toc
@@ -568,16 +573,16 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
  (C:\Users\danii\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2
-
-])
+))
 \tf@toc=\write4
 \openout4 = `MAIN.toc'.
 
-) [3]
+) [2
+
+]
 \openout2 = `vstup.aux'.
 
- (vstup.tex) [4
+ (vstup.tex) [3
 
 
 
@@ -587,160 +592,104 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
  (rozdil_1.tex
 {\cyrillictext \CYRR \cyro \cyrz \cyrd \cyrii \cyrl } 1.
-[5
+
+Overfull \hbox (1.88521pt too wide) in paragraph at lines 9--11
+\T2A/cmr/m/n/14.4 У цьо-му роз-дi-лi при-ве-де-но ви-зна-чен-но основ-них тер-мi-нi та ви-зна-чен-но основ-
+ []
+
+<Pictures/LightSuper.png, id=110, 333.245pt x 189.70876pt>
+File: Pictures/LightSuper.png Graphic file (type png)
+<use Pictures/LightSuper.png>
+Package pdftex.def Info: Pictures/LightSuper.png  used on input line 25.
+(pdftex.def)             Requested size: 333.24417pt x 189.70828pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Pictures/LightSpec.png, id=112, 451.6875pt x 142.03062pt>
+File: Pictures/LightSpec.png Graphic file (type png)
+<use Pictures/LightSpec.png>
+Package pdftex.def Info: Pictures/LightSpec.png  used on input line 32.
+(pdftex.def)             Requested size: 451.68639pt x 142.03026pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4
 
 
 
 
-]
-<Pictures/RL_Diagram.png, id=153, 274.02374pt x 164.615pt>
-File: Pictures/RL_Diagram.png Graphic file (type png)
-<use Pictures/RL_Diagram.png>
-Package pdftex.def Info: Pictures/RL_Diagram.png  used on input line 34.
-(pdftex.def)             Requested size: 274.02307pt x 164.6146pt.
- [6 <./Pictures/RL_Diagram.png>]) [7]
+] [5 <./Pictures/LightSuper.png> <./Pictures/LightSpec.png>]
+<Pictures/LightPath.png, id=129, 453.695pt x 276.03125pt>
+File: Pictures/LightPath.png Graphic file (type png)
+<use Pictures/LightPath.png>
+Package pdftex.def Info: Pictures/LightPath.png  used on input line 45.
+(pdftex.def)             Requested size: 453.6939pt x 276.03056pt.
+ [6 <./Pictures/LightPath.png>]
+<Pictures/LightRecept.png, id=141, 259.46938pt x 173.64874pt>
+File: Pictures/LightRecept.png Graphic file (type png)
+<use Pictures/LightRecept.png>
+Package pdftex.def Info: Pictures/LightRecept.png  used on input line 66.
+(pdftex.def)             Requested size: 259.46873pt x 173.64832pt.
+
+Overfull \hbox (27.89462pt too wide) in paragraph at lines 71--80
+\T2A/cmr/m/n/14.4 фi-цi за-сто-со-ву-№-ться RGB ко-льо-ро-ва мо-дель, де R-red(червоний) G-green(зелений)
+ []
+
+[7 <./Pictures/LightRecept.png>]
+<Pictures/RGB.png, id=158, 248.42813pt x 299.61937pt>
+File: Pictures/RGB.png Graphic file (type png)
+<use Pictures/RGB.png>
+Package pdftex.def Info: Pictures/RGB.png  used on input line 83.
+(pdftex.def)             Requested size: 248.42752pt x 299.61864pt.
+ [8 <./Pictures/RGB.png>] [9]
+Overfull \hbox (6.36342pt too wide) in paragraph at lines 151--152
+ []\T2A/cmr/bx/n/14.4 Iнтенсивнiсть ви-про-мi-ню-ва-н-ня (Radi-ant Intensi-ty).[] \T2A/cmr/m/n/14.4 Iн-тен-сив-нiсть ви-
+ []
+
+[10]
+Overfull \hbox (15.70741pt too wide) in paragraph at lines 187--191
+\T2A/cmr/m/n/14.4 де $\OML/cmm/m/it/14.4 dA[] \OT1/cmr/m/n/14.4 = [] \OML/cmm/m/it/14.4 ^^R dA$ \T2A/cmr/m/n/14.4 ^^V про-№-кцiя пло-щi в на-прям-ку по-то-ку. Оди-ни-ця ^^V Вт/(м$[]$\TS1/cmr/m/n/14.4 ·\T2A/cmr/m/n/14.4 ср).
+ []
+
+[11] [12]
+Overfull \hbox (31.33278pt too wide) in paragraph at lines 229--236
+[]\T2A/cmr/m/n/14.4 У зв'язку з цим, за-мiсть то-чно-го мо-де-лю-ва-н-ня всiх тра-№-кто-рiй, у комп'ютернiй
+ []
+
+) [13]
 \openout2 = `rozdil_2.aux'.
 
  (rozdil_2.tex
 {\cyrillictext \CYRR \cyro \cyrz \cyrd \cyrii \cyrl } 2.
-[8
+) [14
 
 
 
 
 ]
-LaTeX Font Info:    Trying to load font information for U+eus on input line 42.
- (C:\Users\danii\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\ueus.fd
-File: ueus.fd 2013/01/14 v3.01 Euler Script
-)
-Overfull \hbox (30.97227pt too wide) in paragraph at lines 49--55
-\T2A/cmr/m/n/14.4 но-го аген-том до-свi-ду на про-тя-зi одно-го епi-зо-ду, тоб-то $\OML/cmm/m/it/14.4 ^^\ \OT1/cmr/m/n/14.4 = (\OML/cmm/m/it/14.4 s[]; a[]; r[]\OT1/cmr/m/n/14.4 )\OML/cmm/m/it/14.4 ; [] ; \OT1/cmr/m/n/14.4 (\OML/cmm/m/it/14.4 s[]; a[]; r[]\OT1/cmr/m/n/14.4 )$ 
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 63--66
-
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 88--92
-
- []
-
-[11] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 131--135
-
- []
-
-<Pictures/QTable.png, id=210, 324.71312pt x 114.92938pt>
-File: Pictures/QTable.png Graphic file (type png)
-<use Pictures/QTable.png>
-Package pdftex.def Info: Pictures/QTable.png  used on input line 137.
-(pdftex.def)             Requested size: 324.71233pt x 114.9291pt.
-[13]
-<Pictures/q-learning-epsilon-greedy-1.png, id=221, 144.03813pt x 162.10562pt>
-File: Pictures/q-learning-epsilon-greedy-1.png Graphic file (type png)
-<use Pictures/q-learning-epsilon-greedy-1.png>
-Package pdftex.def Info: Pictures/q-learning-epsilon-greedy-1.png  used on input line 159.
-(pdftex.def)             Requested size: 180.0472pt x 202.63153pt.
- [14 <./Pictures/QTable.png>]
-<Pictures/DQN.jpg, id=228, 208.49576pt x 172.68053pt>
-File: Pictures/DQN.jpg Graphic file (type jpg)
-<use Pictures/DQN.jpg>
-Package pdftex.def Info: Pictures/DQN.jpg  used on input line 181.
-(pdftex.def)             Requested size: 208.49524pt x 172.6801pt.
-
-Overfull \hbox (7.64386pt too wide) in paragraph at lines 176--184
-\T2A/cmr/m/n/14.4 ко-жноЁ дiЁ ста-ну, мо-же бу-ти ви-ко-ри-ста-на в по-№д-нан-нi з по-лi-ти-кою $\OML/cmm/m/it/14.4 "$\T2A/cmr/m/n/14.4 -жадiбностi
- []
-
-[15 <./Pictures/q-learning-epsilon-greedy-1.png>] [16 <./Pictures/DQN.jpg>] [17]
-Overfull \hbox (2.9843pt too wide) in paragraph at lines 242--243
-[]\T2A/cmr/m/n/14.4 Функцiя пе-ре-ва-ги кiль-кi-сно ха-ра-кте-ри-зу№ пе-ре-ва-гу ви-ко-на-н-ня пев-
- []
-
-
-Overfull \hbox (1.905pt too wide) in paragraph at lines 248--249
-[]\T2A/cmr/m/it/14.4 Оновлення акто-ра\T2A/cmr/m/n/14.4 : Ви-ко-ри-сто-вуй-те ме-тод гра-дi-№н-та по-лi-ти-ки для
- []
-
-[18]
-Overfull \hbox (7.00664pt too wide) in paragraph at lines 253--253
-[]\T2A/cmr/bx/n/20.74 Проксимальна опти-мi-за-цiя по-лi-ти-ки(PPO) 
- []
-
-
-Overfull \hbox (0.69487pt too wide) in paragraph at lines 270--273
-\T2A/cmr/m/n/14.4 птив-ний KL-штрафний до-да-нок, який ма№ на ме-тi кон-тро-лю-ва-ти роз-бi-жнiсть
- []
-
-[19]
-Underfull \hbox (badness 10000) in paragraph at lines 280--284
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 301--309
-
- []
-
-[20]
-Overfull \hbox (9.89745pt too wide) in paragraph at lines 327--329
-\T2A/cmr/m/n/14.4 Пiсля по-пе-ре-дньоЁ оброб-ки зо-бра-же-н-ня мо-жуть бу-ти пiд-да-нi подаль-шiй оброб-
- []
-
-[21]) [22]
 \openout2 = `rozdil_3.aux'.
 
  (rozdil_3.tex
 {\cyrillictext \CYRR \cyro \cyrz \cyrd \cyrii \cyrl } 3.
-[23
+[15
 
 
 
 
-] [24] [25]
-<Pictures/DQN_REWARD.png, id=295, 768.37062pt x 326.72063pt>
-File: Pictures/DQN_REWARD.png Graphic file (type png)
-<use Pictures/DQN_REWARD.png>
-Package pdftex.def Info: Pictures/DQN_REWARD.png  used on input line 89.
-(pdftex.def)             Requested size: 499.43498pt x 212.36588pt.
-
-Overfull \hbox (24.27405pt too wide) in paragraph at lines 89--90
- [][] 
- []
-
-[26] [27 <./Pictures/DQN_REWARD.png>]
-<Pictures/PPO_REWARD.png, id=307, 895.84688pt x 326.72063pt>
-File: Pictures/PPO_REWARD.png Graphic file (type png)
-<use Pictures/PPO_REWARD.png>
-Package pdftex.def Info: Pictures/PPO_REWARD.png  used on input line 114.
-(pdftex.def)             Requested size: 492.71732pt x 179.69688pt.
-
-Overfull \hbox (17.55638pt too wide) in paragraph at lines 114--115
- [][] 
- []
-
-[28 <./Pictures/PPO_REWARD.png>]
-<Pictures/A2C_REWARD.png, id=315, 877.2775pt x 323.70938pt>
-File: Pictures/A2C_REWARD.png Graphic file (type png)
-<use Pictures/A2C_REWARD.png>
-Package pdftex.def Info: Pictures/A2C_REWARD.png  used on input line 140.
-(pdftex.def)             Requested size: 482.50412pt x 178.04071pt.
-
-Overfull \hbox (7.34319pt too wide) in paragraph at lines 140--141
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--156
+]
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
 
  []
 
-[29 <./Pictures/A2C_REWARD.png>]) [30]
+
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
+
+ []
+
+) [16]
 \openout2 = `vysnovok.aux'.
 
- (vysnovok.tex) [31
+ (vysnovok.tex) [17
 
 
 
@@ -749,119 +698,109 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--156
 \openout2 = `bibl.aux'.
 
  (bibl.tex
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 24.
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 19.
  (C:\Users\danii\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-[]\T2A/cmr/m/n/14.4 V7 Labs. Deep Rei-nforcement Learni-ng Gui-de [Еле-ктрон-ний
+Underfull \hbox (badness 1968) in paragraph at lines 26--27
+[]\T2A/cmr/m/n/14.4 UNDERSTANDING GAMMA CORRECTI-ON [Еле-ктрон-ний ре-сурс].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-\T2A/cmr/m/n/14.4 ре-сурс]. ^^U Ре-жим до-сту-пу: []$\T2A/cmtt/m/n/14.4 https : / / www . v7labs . com / blog /
+Underfull \hbox (badness 3219) in paragraph at lines 26--27
+\T2A/cmr/m/n/14.4 ^^U Ре-жим до-сту-пу: []$\T2A/cmtt/m/n/14.4 https : / / www . cambridgeincolour . com / tutorials /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-[]\T2A/cmr/m/n/14.4 Neptune AI. Model-Based and Model-Free Rei-nforcement
+Underfull \hbox (badness 1968) in paragraph at lines 29--30
+[]\T2A/cmr/m/n/14.4 UNDERSTANDING GAMMA CORRECTI-ON [Еле-ктрон-ний ре-сурс].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-\T2A/cmr/m/n/14.4 Learni-ng: PyTennis Case Study [Еле-ктрон-ний ре-
+Underfull \hbox (badness 3219) in paragraph at lines 29--30
+\T2A/cmr/m/n/14.4 ^^U Ре-жим до-сту-пу: []$\T2A/cmtt/m/n/14.4 https : / / www . cambridgeincolour . com / tutorials /
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 27--28
-\T2A/cmr/m/n/14.4 сурс]. ^^U Ре-жим до-сту-пу: []$\T2A/cmtt/m/n/14.4 https : / / neptune . ai / blog /
- []
-
-
-Overfull \hbox (62.89174pt too wide) in paragraph at lines 27--28
-\T2A/cmtt/m/n/14.4 model-[]based-[]and-[]model-[]free-[]reinforcement-[]learning-[]pytennis-[]case-[]study# :
- []
-
-[32
+[18
 
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 \T2A/cmtt/m/n/14.4 python _ deep _ learning / python _ deep _ learning _ deep _ neural _ networks .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 []\T2A/cmr/m/n/14.4 Deepchecks. Rei-nforcement Learni-ng Appli-cati-ons:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 \T2A/cmr/m/n/14.4 From Gami-ng to Real World [Еле-ктрон-ний ре-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 \T2A/cmr/m/n/14.4 сурс]. ^^U Ре-жим до-сту-пу: []$\T2A/cmtt/m/n/14.4 https : / / deepchecks . com /
  []
 
 
-Underfull \hbox (badness 3919) in paragraph at lines 45--46
+Underfull \hbox (badness 3919) in paragraph at lines 47--48
 []\T2A/cmr/m/n/14.4 Neptune AI. Markov Deci-si-on Process in Rei-nforcement Learni-ng
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 []\T2A/cmr/m/n/14.4 Built In. Markov Deci-si-on Process [Еле-ктрон-ний ре-сурс].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 \T2A/cmr/m/n/14.4 ^^U Ре-жим до-сту-пу: []$\T2A/cmtt/m/n/14.4 https : / / builtin . com / machine-[]learning /
  []
 
 
-Underfull \hbox (badness 3250) in paragraph at lines 51--52
+Underfull \hbox (badness 3250) in paragraph at lines 53--54
 \T2A/cmr/m/n/14.4 ний ре-сурс]. ^^U Ре-жим до-сту-пу: []$\T2A/cmtt/m/n/14.4 https : / / towardsdatascience . com /
  []
 
 
-Underfull \hbox (badness 6927) in paragraph at lines 54--55
+Underfull \hbox (badness 6927) in paragraph at lines 56--57
 []\T2A/cmr/m/n/14.4 Scholarpedia. Poli-cy Gradi-ent Methods [Еле-ктрон-ний ре-сурс]. ^^U
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 \T2A/cmr/m/n/14.4 Ре-жим до-сту-пу: []$\T2A/cmtt/m/n/14.4 http : / / www . scholarpedia . org / article / Policy _
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
+Underfull \hbox (badness 10000) in paragraph at lines 56--57
 \T2A/cmtt/m/n/14.4 gradient _ methods# : ~ : text = Policy % 20gradient % 20methods % 20are %
  []
 
-[33]) [34] (MAIN.aux (titel.aux) (vstup.aux) (rozdil_1.aux) (rozdil_2.aux) (rozdil_3.aux) (vysnovok.aux) (bibl.aux))
+[19]) [20] (MAIN.aux (titel.aux) (vstup.aux) (rozdil_1.aux) (rozdil_2.aux) (rozdil_3.aux) (vysnovok.aux) (bibl.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `MAIN.out' has not changed.
-(rerunfilecheck)             Checksum: B6B63EA27882DD3A63B71EB96F4458C9;4915.
+(rerunfilecheck)             Checksum: FECF99B43FB5A77B35CDD9F2C99E5303;3935.
  ) 
 Here is how much of TeX's memory you used:
- 12774 strings out of 474486
- 202699 string characters out of 5743755
+ 12705 strings out of 474486
+ 201158 string characters out of 5743755
  1933542 words of memory out of 5000000
- 34719 multiletter control sequences out of 15000+600000
- 574063 words of font info for 70 fonts, out of 8000000 for 9000
+ 34675 multiletter control sequences out of 15000+600000
+ 575448 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 79i,9n,93p,753b,654s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1440.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx3583.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2986.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on MAIN.pdf (34 pages, 772640 bytes).
+ 79i,9n,93p,649b,657s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt1440.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0700.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1000.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1440.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\lati1440.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2074.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx2986.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx3583.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1728.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1440.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1728.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2986.pk> <C:\Users\danii\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/danii/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on MAIN.pdf (20 pages, 961334 bytes).
 PDF statistics:
- 1006 PDF objects out of 1200 (max. 8388607)
- 103 named destinations out of 1000 (max. 500000)
- 228 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 904 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
+ 162 words of extra memory for PDF output out of 10000 (max. 10000000)
 
