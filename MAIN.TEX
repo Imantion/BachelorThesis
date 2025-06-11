@@ -1,0 +1,178 @@
+%%
+%% This is file `xampl-thesis.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% vakthesis.dtx  (with options: `xampl-thesis')
+%%
+%% IMPORTANT NOTICE:
+%%
+%% For the copyright see the source file.
+%%
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from xampl-thesis.tex.
+%%
+%% For distribution of the original source see the terms
+%% for copying and modification in the file vakthesis.dtx.
+%%
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%% xampl-thesis.tex  Приклад головного файла дисертації
+
+\documentclass{vakthesis}
+
+
+%\documentclass[1space]{vakthesis}  
+% Існують кілька опцій, які необхідно вказувати як факультативний
+% аргумент команди \documentclass. Наприклад, для докторської
+% дисертації необхідно написати
+% \documentclass[d]{vakthesis}
+% Для бакалаврської \documentclass[b]{vakthesis}, а магістерської \documentclass[m]{vakthesis}
+
+
+% Підключення необхідних пакетів. Наприклад,
+% Пакети AMS для підтримки математики, теорем, спеціальних шрифтів
+\usepackage[intlimits]{amsmath}
+\allowdisplaybreaks
+\usepackage{amsmath,amsthm,amsfonts,amssymb,mathrsfs}
+
+%%%%%%%%%%%%%% маленькі матриці з круглими дужками
+\newenvironment{psmallmatrix}
+	{\left(\begin{smallmatrix}}
+	{\end{smallmatrix}\right)}
+%%%%%%%%%%%%%%%%%%
+
+\usepackage{cite}
+\usepackage{euscript}
+
+% Налагодження кодування шрифта, кодування вхідного файла
+% та вибір необхідних мов
+
+%\usepackage[cp1251]{inputenc}%cp1251, utf-8
+%\usepackage[T2A]{fontenc}
+\usepackage{fontspec}
+\setmainfont{FreeSerif} % або Times New Roman, якщо доступний
+\usepackage[english,spanish, ukrainian]{babel}
+
+%%Забираємо слова РОЗДІЛ, а додаємо нумерацію
+\usepackage{titlesec}
+\titleformat{\chapter}[hang]
+  {\normalfont\Large\center\bfseries}
+  {\thechapter.}{0.5em}{} % це і є формат: 1. Назва
+% Забираємо Розділ зі змісту
+% ????????????//
+
+
+
+\usepackage{color}
+%\usepackage{multind}
+\usepackage{multicol}  %my
+
+%моє
+\usepackage{index}
+
+  \input{xy}
+ \xyoption{all}
+ \xyoption{arc}
+
+%\date{\today}
+
+
+% Налагодження параметрів сторінки (зокрема колонтитиулів).
+% Наприклад, за допомогою пакета geometry
+\usepackage{geometry}
+\geometry{hmargin={30mm,15mm},lines=29,vcentering}
+
+
+\newtheorem{theorem}{Теорема}[section]
+\newtheorem{proposition}[theorem]{Твердження}%[section]
+\newtheorem{corollary}[theorem]{Наслідок}%[section]
+\newtheorem{lemma}[theorem]{Лема}
+\newtheorem{exercise}[theorem]{Задача}
+
+\theoremstyle{definition}
+\newtheorem{example}[theorem]{Приклад}%[section]
+\newtheorem{construction}[theorem]{Конструкція}%[section]
+\newtheorem{remark}[theorem]{Зауваження}%[section]
+\newtheorem{definition}[theorem]{Означення}%[section]
+\newtheorem{question}[theorem]{Question}
+
+
+%\setcounter{page}{0} %початок нумерації сторінок з 0, першу компілює порожньою
+
+
+\renewcommand{\bibname}{СПИСОК ВИКОРИСТАНИХ ДЖЕРЕЛ}
+\usepackage{hyperref}
+
+
+\usepackage{graphicx}
+\usepackage{float}
+
+ 
+
+\begin{document}
+
+\pagenumbering{gobble}
+
+%\include{title}%           Титулка
+
+% Зміст
+\tableofcontents
+
+%\renewcommand{\labelitemi}{$\bullet$} %великі крапочки в списку
+\renewcommand{\labelitemi}{{\tiny$\bullet$}} %малі крапочки в списку
+
+\include{general45}  %індекс
+% Розділи в окремих файлах
+
+\clearpage
+\pagenumbering{arabic}
+\setcounter{page}{6}
+
+\include{vstup}%            Вступ
+\include{rozdil_1}%         Розділ 1 
+\include{rozdil_2}%         Розділ 2 
+\include{rozdil_3}%         Розділ 3 
+%\include{D-ch4}%           Розділ 4 
+
+%\include{xampl-ch4}%         Розділ 5 і т. д. ще скільки потрібно розділів
+
+
+
+\include{vysnovok}%       Висновки
+
+\include{references}%         Список використаних джерел
+
+%\appendix
+%\include{xampl-app1}%        Додаток 1
+%\include{xampl-app2}%        Додаток 2 і т. д. ще скільки потрібно додатків
+
+% makeindex general  - запустити з Total Commander шоб оновило індекс
+
+%\printindex{general}{}
+%\printindex{general}{ПРЕДМЕТНИЙ ПОКАЖЧИК}
+
+%\printindex{general}
+%\printindex
+
+%\input{general.ind}
+
+ \include{bibl}
+
+
+\end{document}
+
+
+
+
+
+
+
+
+ 
+ 
+ 
+
